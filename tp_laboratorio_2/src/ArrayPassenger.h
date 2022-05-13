@@ -15,7 +15,7 @@ typedef struct{
 
 }Passenger;
 
-
+#endif
 /** \brief	To indicate that all position in the array are empty, 
 *			this funciont put the flag (isEmpty) in TRUE in all
 *			position of the array.
@@ -102,4 +102,6 @@ int printPassenger(Passenger* list, int lenght);
 *
 */
 int sortPassengerByCode(Passenger* list, int len, int order);
-#endif
+void printOnePassenger(Passenger list);
+int forcedData(Passenger* List,int len);
+int pedirDatos(Passenger* list);
